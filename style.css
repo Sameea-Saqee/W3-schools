@@ -1,0 +1,151 @@
+body {
+    /* font-family: 'Courier New', Courier, monospace; */
+ font-family: sans-serif;
+    margin: 0px;
+}
+
+/* Header */
+header {
+    background-color: #282A35;
+    position: sticky;
+    top: 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0px;
+    padding-inline-start: 0px;
+}
+
+header ul li {
+    padding: 15px 10px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+header ul li:hover {
+    background: white;
+    color: #282A35;
+    cursor: pointer;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    display: flex;
+}
+.content-wrapper .sidebar {
+    width: 220px;
+    background-color: #E7E9EB;
+}
+.content-wrapper .sidebar ul{
+    padding-inline-start: 0px;
+    padding: 0px 0px;
+    list-style-type: none;
+}
+.content-wrapper .sidebar ul li:hover {
+    background-color: #cccccc;
+    color: white;
+}
+
+.content-wrapper .sidebar ul li {
+    padding: 10px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.content-wrapper .content {
+    background: white;
+    flex: 1;
+}
+.text{
+    margin: 0px;
+}
+
+.content {
+    display: flex;
+}
+
+.content .inner {
+    flex: 1;
+    padding: 25px;
+}
+
+.content .ads-wrapper {
+    width: 200px;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.content .inner table{
+    padding: 0px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.content .inner table thead {
+    background-color: #04AA6D;
+    color: white;
+    font-weight: bold;
+}
+
+.content .inner table thead th {
+    padding: 15px;
+    text-align: left;
+    border: none;
+}
+
+.content .inner table tbody td {
+    padding: 15px;
+    border: none;
+}
+
+.content .inner table tbody .company-td {
+    width: 60%;
+}
+.content .inner table tbody .contact-td {
+    width: 30%;
+}
+.content .inner table tbody .country-td {
+    width: 10%;
+}
+
+.content .inner table tbody tr:nth-child(1n) { 
+    background-color: #E7E9EB;
+ }
+.content .inner table tbody tr:nth-child(2n) { 
+    background-color: inherit;
+ }
+
+ /* Footer */
+ footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+footer ul li  {
+    font-size: 13px;
+    text-align: center;
+    margin: 7px 0px;
+    text-transform: capitalize;
+}
+
+footer ul li h4 {
+    margin: 0px;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+footer ul li a {
+    color: black;
+    text-decoration: none;
+}
+/* End Footer */
